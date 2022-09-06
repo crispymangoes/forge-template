@@ -1,8 +1,26 @@
-# Compiler files
+# Foundry
 cache/
 out/
+broadcast/
 
-# Ignores development broadcast logs
-!/broadcast
-/broadcast/*
-/broadcast/*/31337/
+# Environment variables!
+.env
+.env.prod
+
+# JS
+node_modules/
+
+# Hardhat files
+cache_hardhat/
+artifacts/
+
+# Hardhat plugin files
+typechain-types/
+
+# Flattened files
+flattened.txt
+
+# Package Manager files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
